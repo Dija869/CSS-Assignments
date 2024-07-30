@@ -1,0 +1,152 @@
+/*form*/
+* {
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+/*body*/
+body {
+    background-color: rgb(187, 201, 202);
+}
+
+/*box*/
+.box {
+    width: 80%;
+    height: 85vh;
+    background-color: rgb(236, 250, 252);
+    margin-top: 60px;
+    margin-left: 65px;
+    border-radius: 15px;
+    display: flex;
+}
+
+.container {
+    width: 30%;
+    height: 80vh;
+    background-color: rgb(44, 44, 211);
+    margin-top: 25px;
+    margin-left: 25px;
+    border-radius: 10px;
+    color: white;
+}
+
+h6 {
+    line-height: 8em;
+    text-indent: 20px;
+}
+
+.start {
+    line-height: 8em;
+    text-indent: 40px;
+    font-size: 25px;
+}
+
+.lighter {
+    font-size: 1em;
+    opacity: 0.5;
+    text-align: center;
+}
+
+.break-point::before {
+    content: "\a";
+    white-space: pre;
+}
+
+/* animated profile */
+.slider {
+    width: 80%;
+    height: 17vh;
+    background-color: blue;
+    margin-top: 65px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.text {
+    font-size: small;
+    /* line-height: 3em; */
+    line-height: 20px;
+    padding-top: 23px;
+    padding-left: 13px;
+    opacity: 0.7;
+}
+ #name{
+    color: black;
+    font-weight: bold;
+    font-size: medium;
+}
+.image{
+padding-top:25px ;
+padding-left: 10px;
+}
+.image img {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid gray;
+    background-color: white;
+
+}
+
+/*radio*/
+.button {
+    margin-top: 55px;
+    margin-left: 150px;
+    list-style-type: circle;
+}
+
+h3,
+h5 .signup {
+    margin-right: 730px;
+    margin-top: 60px;
+}
+
+.project {
+    width: 200px;
+    height: 2em;
+    border: 2px solid rgb(163, 163, 163);
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 20px;
+    padding: 5px;
+    display: inline;
+    justify-content: space-evenly;
+    font-size: small;
+}
+
+.options {
+    opacity: 0.5;
+    font-size: small;
+    margin-top: 20px;
+}
+
+.option1 {
+    width: 100px;
+    height: 50px;
+    border: 5px;
+    border-color: black;
+    color: rgb(52, 55, 58)
+}
+
+#box {
+    height: 40px
+}
+
+.login {
+    background-color: rgb(41, 41, 206);
+    border: 1px solid black;
+    border-radius: 5px;
+    width: 200px;
+    height: 2.5em;
+    margin-left: 10px;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+.link {
+    text-decoration: none;
+}

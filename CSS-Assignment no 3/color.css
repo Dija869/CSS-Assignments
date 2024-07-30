@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ h1{
+width: 100vw;
+height: 10vh;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+font-size: x-large;
+font-weight: lighter;
+text-align: center;
+padding-top: 1.5em;
+border: 1px solid black;
+ box-shadow: rgba(44, 44, 46, 0.15) 0px 48px 100px 0px;
+background-color: rgb(250, 250, 244);
+color: rgb(25, 45, 133);
+
+
+}
+
+
+
+
+
+.parent , .parent2 , .parent3 , .parent4 {
+    display: flex;
+    position: relative;
+}
+.bg1 , .bg2 , .bg4 , .bg5 , .bg7 , .bg8 , .bg10 , .bg11 {
+    width: 50vw;
+    height: 50vh;
+    color: white;
+    font-size: 1.5em;
+padding: 25px 0 0 10px;
+}
+
+.bg1{
+    background-color:#575656;
+}
+.bg2{
+    background-color:#363535;
+}
+.image1 , .image2 , .image3 , .image4 {width: 100vw;
+    height: 100vh;
+    position: absolute;
+     display: flex;
+     align-items: center;
+    justify-content: center;
+}
+
+.image1 img , .image2 img , .image3 img  , .image4 img {
+    width: 250px;
+    height: 250px;
+    border-radius: 150px;
+    margin: auto;
+}
+ .bg3 , .bg6 , .bg9  , .bg12{
+    width:50vw ;
+    height:100vh ;
+    color: white;
+    font-size: 1.5em;
+padding: 25px 0 0 10px;
+}
+.bg3{
+    background-color: #141414;
+}
+/* seccond section  */
+.bg4{
+    background-color: #69bcf0;
+}
+.bg5{
+    background-color: #bee0e6;
+}
+.bg6{
+    background-color: #609ec4;
+}
+/* third section  */
+.bg7{
+    background-color:#6ac24f ;
+}
+.bg8{
+    background-color: #3c7a2a;
+}
+.bg9{
+    background-color:#2d7318 ;
+}
+/* forth section  */
+.bg10{
+    background-color: #872323;
+}
+.bg11{
+    background-color:#cf2727 ;
+}
+.bg12{
+    background-color:#b30000 ;
+}
